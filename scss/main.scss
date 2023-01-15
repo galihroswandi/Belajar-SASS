@@ -1,0 +1,63 @@
+// .main{
+//     background-color: lightblue;
+
+//     .main-heading{
+//         font-size: 2em;
+//     }
+
+//     .main-paragraph{
+//         font-size: 1.4em;
+//     }
+// }
+
+
+
+// .main, footer{
+//     h1, p{
+//         letter-spacing: 1px;
+//     }
+// }
+
+
+
+
+// (&) ==> Parent Selector
+// .main{
+//     .container &{
+//         background-color: aqua;
+//     }
+
+//     .main-heading{
+//         font-size: 1em;
+//     }
+
+//     &:hover{
+//         background-color: pink;
+//     }
+// } 
+
+
+
+// Bisa digunakan untuk mengeneranate nama parent nya
+.main{
+    // Bisa pakai && atau #{&}
+    #{&}-heading{
+        font-size: 2em;
+    }
+
+    #{&}-paragraph{
+        font-size: 1.4em;
+    }
+}
+
+
+.footer{
+    // Bisa pakai && atau #{&}
+    #{&}-heading{
+        font-size: 2em;
+    }
+
+    #{&}-paragraph{
+        font-size: 1.4em;
+    }
+}
