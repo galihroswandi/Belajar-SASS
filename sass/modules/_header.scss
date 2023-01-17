@@ -1,0 +1,16 @@
+@use 'submodules/mixin' as m;
+// bisa juga menggunakan alias as nama alias setelah path
+
+.header{
+    ul{
+        @include m.inline-list();
+        li{
+            background-color: #000;
+            padding: .7em;
+
+            a{
+                color: #fff;
+            }
+        }
+    }
+}
